@@ -744,105 +744,6 @@ table td {
     width: calc(50% - 30px / 2);
   }
 }
-.profile-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0rem;
-  margin-bottom: 40pt;
-}
-
-.profile-header h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #2c3e50;
-}
-
-.profile-content {
-  display: flex;
-  gap: 2rem;
-}
-
-.profile-photo {
-  flex: 0 0 250px;
-}
-
-.profile-photo img {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.profile-info {
-  flex: 1;
-}
-
-.profile-info h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #13409f;
-  margin-bottom: 0rem;
-  margin-top: -1rem;
-}
-
-.profile-info h2 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.affiliation {
-  font-size: 1.5rem;
-  color: #000000;
-  margin-bottom: 0.25rem;
-}
-
-.honors p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-.achievements h3,
-.research h3,
-.interests h3,
-.awards h3,
-.mission h3 {
-  font-size: 1.5rem;
-  color: #2c3e50;
-  margin: 1.5rem 0 1rem;
-}
-
-.achievements ul,
-.research ul,
-.awards ul {
-  list-style: disc;
-  padding-left: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.achievements li,
-.research li,
-.awards li {
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
-}
-
-.mission p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-}
-
-@media (max-width: 768px) {
-  .profile-content {
-    flex-direction: column;
-  }
-  .profile-photo {
-    flex: 1;
-    margin-bottom: 2rem;
-  }
-}
 .site-nav {
   background-color: #fff;
   z-index: 100;
@@ -979,6 +880,102 @@ table td {
   .container {
     padding: 10px;
   }
+  .profile-content {
+    flex-direction: column;
+  }
+  .profile-photo {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+}
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0rem;
+  margin-bottom: 40pt;
+}
+
+.profile-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.profile-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-photo {
+  flex: 0 0 250px;
+}
+
+.profile-photo img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #13409f;
+  margin-bottom: 0rem;
+  margin-top: -1rem;
+}
+
+.profile-info h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.affiliation {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 0.25rem;
+}
+
+.honors p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.achievements h3,
+.research h3,
+.interests h3,
+.awards h3,
+.mission h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 1.5rem 0 1rem;
+}
+
+.achievements ul,
+.research ul,
+.awards ul {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.achievements li,
+.research li,
+.awards li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
