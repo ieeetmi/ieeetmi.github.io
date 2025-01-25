@@ -781,11 +781,11 @@ h5 {
 .nav-item {
   display: inline-block;
   position: relative;
+  padding: 6px 6px;
 }
 
 .nav-item a {
   color: #000;
-  padding: 10px 10px;
   text-decoration: none;
 }
 
@@ -825,6 +825,17 @@ h5 {
 .dropdown-item a:hover {
   background-color: #4dacd5;
   color: #fff;
+}
+
+.arrow {
+  float: right;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: transform 0.4s ease;
+}
+
+.nav-item:hover .arrow {
+  transform: rotate(180deg); /* Rotate the arrow 180 degrees */
 }
 
 .background-image {
