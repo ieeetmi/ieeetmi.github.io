@@ -805,7 +805,7 @@ h5 {
   border: #123f9f;
   z-index: 9900;
   pointer-events: auto;
-  border-block: 3px solid #65458d;
+  border-block: 3px solid #8c2d92;
 }
 
 .dropdown-item a {
@@ -823,7 +823,7 @@ h5 {
 }
 
 .dropdown-item a:hover {
-  background-color: #4dacd5;
+  background-color: #8c2d92;
   color: #fff;
 }
 
@@ -831,11 +831,16 @@ h5 {
   float: right;
   padding-left: 3px;
   padding-right: 3px;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  color: #8c2d92;
+  transform: translateY(-1.5px) rotate(180deg);
   transition: transform 0.4s ease;
 }
 
 .nav-item:hover .arrow {
-  transform: rotate(180deg); /* Rotate the arrow 180 degrees */
+  transform: rotate(0deg) translateY(1.5px); /* Rotate the arrow 180 degrees */
 }
 
 .background-image {
